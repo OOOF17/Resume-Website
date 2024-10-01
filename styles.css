@@ -1,0 +1,125 @@
+/* Import the Satoshi font */
+@import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@400;700&display=swap');
+
+/* General styles */
+body {
+    font-family: 'Satoshi', Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+p {
+    margin: 0 0 10px;
+    line-height: 1.6;
+}
+
+/* Contact info */
+.contact-info {
+    text-align: middle; /* Aligns the text to the right */
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 0;
+    margin-bottom: 5px; /* Spacing between lines */
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #1a73e8; /* Link color */
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+/* Sections */
+.skills-section, .tools-section, .experience-section, .education-section {
+    margin-bottom: 20px;
+}
+
+.skills-section p, .tools-section p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Work Experience */
+.experience-section ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.experience-section ul li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+/* Education */
+.education-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.education-section ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.education-section ul li strong {
+    display: inline-block;
+    min-width: 100px; /* Adjust this width to align the dates */
+    font-weight: bold;
+}
+
+.education-section ul li em {
+    display: block;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 4px;
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
